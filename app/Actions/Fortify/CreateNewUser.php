@@ -21,13 +21,13 @@ class CreateNewUser implements CreatesNewUsers
     {
         Validator::make($input, [
             'username' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email','max:255', 'unique:users'],
+            'phone' => ['required', 'string','max:255', 'unique:users'],
             'password' => $this->passwordRules(),
         ])->validate();
 
         return User::create([
             'username' => $input['username'],
-            'email' => $input['email'],
+            'phone' => $input['phone'],
             'password' => Hash::make($input['password']),
         ]);
     }
