@@ -7,7 +7,7 @@
                         @ 350=/</h2>
                     <p class="">Per month</p>
                 </div>
-                <button
+                <button style="background: #137368"
                     class="inline-flex items-center px-6 py-2 mt-4 text-white font-semibold bg-blue-700 rounded-2xl shadow-sm"
                     type="submit">Buy now
                 </button>
@@ -17,7 +17,7 @@
                         @400</h2>
                     <p class="">Per month</p>
                 </div>
-                <button
+                <button style="background: #137368"
                     class="inline-flex items-center px-6 py-2 mt-4 text-white font-semibold bg-blue-700 rounded-2xl shadow-sm"
                     type="submit">Buy now
                 </button>
